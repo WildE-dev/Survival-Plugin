@@ -1,0 +1,51 @@
+name: ImprovedSurvival
+version: 0.0.1
+author: action35
+main: com.action35.survival.Main
+api-version: 1.16
+api: []
+depend: [Votifier]
+loadbefore: [GriefPrevention, GoldenCrates]
+commands:
+  play:
+    description: Join the survival world
+    usage: /play
+  spawn:
+    description: Go back to the spawn world
+    usage: /spawn
+  vote:
+    description: Displays voting links
+    usage: /vote
+  menu:
+    description: Opens server menu
+    usage: /menu
+  tpa:
+    description: Request to teleport to someone
+    usage: /tpa <player>
+  tpaccept:
+    description: Accept a teleport request
+    usage: /tpaccept
+  tpdeny:
+    description: Deny a teleport request
+    usage: /tpdeny
+  home:
+    description: Teleport to your home
+    usage: /home
+  sethome:
+    description: Sets the location of your home
+    usage: /sethome
+  vanish:
+    description: Makes you completely invisible to other players
+    usage: /vanish
+  setrank:
+    description: Set a players rank
+    usage: /setrank <player> <rank>
+  wild:
+    description: Teleport somewhere random
+    usage: /wild
+  reloadconfig:
+    description: Reloads the ImprovedSurvival config file
+    usage: /reloadconfig
+  discord:
+    description: Shows discord join link
+    usage: /discord
